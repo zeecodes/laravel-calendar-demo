@@ -1,0 +1,28 @@
+web:
+  build: .
+  links:
+    - db
+  volumes:
+    - ./public_html:/var/www/project
+  ports:
+    - "8080:80"
+    - "3001:3001"
+    - "3000:3000"
+db:
+  image: tutum/mysql
+  environment:
+    MYSQL_USER: root
+    MYSQL_PASS: password
+  volumes:
+    - ./Mysql:/var/lib/mysql
+    - ./MysqlHome:/root
+  ports:
+    - "3306:3306"
+phpmyadmin:
+  image: phpmyadmin/phpmyadmin
+  ports:
+    - 81:80
+  links:
+      - db
+  environment:
+    PMA_HOST: db
