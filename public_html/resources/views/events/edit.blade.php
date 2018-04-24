@@ -40,7 +40,7 @@
                                     <div class="invalid-feedback">{{ $errors->first('date') }}</div>
                                 @endif
                             </div>
-                            <input type="submit" value="Create" class="btn btn-primary">
+                            <input type="submit" value="Update" class="btn btn-primary">
                         </form>
                     </div>
                 </div>
