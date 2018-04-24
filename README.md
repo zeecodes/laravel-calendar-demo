@@ -1,18 +1,18 @@
 # laravel-calendar-demo
 
-##Based on Laravel 5.6
+## Based on Laravel 5.6
 
-###JS Libraries:
+### JS Libraries:
   * FullCalendar (jQuery plugin)
   * bootstrap-datepicker
   
  
-##Requirements:
+## Requirements:
 * PHP 7 (prepackaged in Docker configuration)
 * MySQL 5.7 (prepackaged in Docker configuration)
 
  
-##Installation
+## Installation
 1. Install Docker  
 1. In the main directory run: docker-compose up -d
 1. Enter the web container's terminal by typing: docker exec -ti laravelcalendardemo_web_1 bash
