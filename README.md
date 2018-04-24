@@ -23,7 +23,7 @@
 
 
 ## .env file contents
-
+```
 APP_NAME='Laravel Calendar Demo'
 APP_ENV=local
 APP_KEY=base64:b3RU0rndvG//Tw4Tz0cgcUFZz0+keRU6mZYqgDPgZJc=
@@ -63,5 +63,5 @@ PUSHER_APP_CLUSTER=mt1
 
 MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
 MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
-  
+```
 
