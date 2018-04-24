@@ -9,7 +9,7 @@ web:
     - "3001:3001"
     - "3000:3000"
 db:
-  image: tutum/mysql
+  image: mysql:5.7
   environment:
     MYSQL_USER: root
     MYSQL_PASS: password
